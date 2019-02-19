@@ -1,0 +1,215 @@
+KOREAN_LANGUAGE : LANGUAGE
+
+    // -- CONSTANTS
+
+    // .. ATTRIBUTES
+
+    "Color:"
+        "색상:"
+
+    "Font size:"
+        "글꼴 크기:"
+
+    "Date:"
+        "날짜:"
+
+    "Durations:"
+        "기간:"
+
+    "Language:"
+        "언어:"
+
+    "Name:"
+        "이름:"
+
+    "Next dates:"
+        "다음 날짜:"
+
+    "Last date:"
+        "마지막 날짜:"
+
+    "Chapters:"
+        "장:"
+
+    "Number of repetitions:"
+        "반복 횟수:"
+
+    "Planning:"
+        "계획:"
+
+    "Status:"
+        "상태:"
+
+    "Course:"
+        "코스:"
+
+    // .. VALUES
+
+    "Active (chapter)"
+        "활성"
+
+    "Active (course)"
+        "활성"
+
+    "Active chapters"
+        "활성 장"
+
+    "Active courses"
+        "활성 코스"
+
+    "All chapters"
+        "모든 장"
+
+    "All courses"
+        "모든 코스"
+
+    "Inactive (chapter)"
+        "비활성"
+
+    "Inactive (course)"
+        "비활성"
+
+    // .. NAMES
+
+    "New planning"
+        "새 계획"
+
+    "New course"
+        "새 코스"
+
+    "New chapter"
+        "새 장"
+
+    // .. LANGUAGES
+
+    "Danish"
+        "덴마크어"
+
+    "Dutch"
+        "네덜란드어"
+
+    "English"
+        "영어"
+
+    "French"
+        "프랑스어"
+
+    "German"
+        "독일어"
+
+    "Italian"
+        "이탈리아어"
+
+    "Japanese"
+        "일본어"
+
+    "Korean"
+        "한국어"
+
+    "Norwegian"
+        "노르웨이어"
+
+    "Portuguese"
+        "포르투갈어"
+
+    "Spanish"
+        "스페인어"
+
+    "Swedish"
+        "스웨덴어"
+
+    // .. QUESTIONS
+
+    "Do you want to delete this backup?"
+        "이 백업을 삭제 하 시겠습니까?"
+
+    "Do you want to delete this planning?"
+        "이 계획을 삭제 하 시겠습니까?"
+
+    "Do you want to delete this course?"
+        "이 코스를 삭제 하 시겠습니까?"
+
+    "Do you want to delete this chapter?"
+        "이 장을 삭제 하 시겠습니까?"
+
+    "Do you want to export the application data into the clipboard?"
+        "응용 프로그램 데이터를 클립보드로 내보내시겠습니까?"
+
+    "Do you want to import the application data from the clipboard?"
+        "클립 보드에서 응용 프로그램 데이터를 가져 오시겠습니까?"
+
+    "Do you want to restore the application data from this backup?"
+        "이 백업에서 응용 프로그램 데이터를 복원 하 시겠습니까?"
+
+    // .. MESSAGES
+
+    "This planning can't be deleted because it is still used by a chapter."
+        "이 계획은 장에서 계속 사용 되므로 삭제할 수 없습니다."
+
+    "The application data can't be imported because the clipboard content has an invalid format."
+        "응용 프로그램 데이터는 오림판 내용에는 부당한 체재가 있기 때문에 수입될 수 없다."
+
+    "All current data will be lost."
+        "모든 현재 데이터가 손실 됩니다."
+
+    // .. ACTIONS
+
+    "RESTORE"
+        "복원"
+
+    "CANCEL"
+        "취소"
+
+    "CONTINUE"
+        "계속"
+
+    "DELETE"
+        "삭제"
+
+    "SHARE"
+        "공유"
+
+    "EXPORT"
+        "내보내기"
+
+    "IMPORT"
+        "가져오기"
+
+    // .. TITLES
+
+    "BACKUPS"
+        "백업"
+
+    "CALENDAR"
+        "달력"
+
+    "CHAPTER"
+        "장"
+
+    "CHAPTERS"
+        "장"
+
+    "OPTIONS"
+        "옵션"
+
+    "PLANNING"
+        "계획"
+
+    "PLANNINGS"
+        "계획"
+
+    "COURSE"
+        "코스"
+
+    "COURSES"
+        "코스"
+
+    // -- INQUIRIES
+
+    @import "date.dart";
+
+    @String GetDate( DATE date )
+        return "${date.Year}년 ${date.Month}월 ${date.Day}일";
+
+    @String GetDateTime( DateTime date_time )
+        return "${date_time.year}년 ${date_time.month}월 ${date_time.day}일 ${date_time.hour}시 ${date_time.minute}분 ${date_time.second}초";

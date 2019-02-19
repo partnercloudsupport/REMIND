@@ -1,0 +1,207 @@
+SPANISH_LANGUAGE : LANGUAGE
+
+    // -- CONSTANTS
+
+    // .. ATTRIBUTES
+
+    "Color:"
+        "Color:"
+
+    "Font size:"
+        "Tamaño de fuente:"
+
+    "Date:"
+        "Fecha:"
+
+    "Durations:"
+        "Duraciones:"
+
+    "Language:"
+        "Idioma:"
+
+    "Name:"
+        "Nombre:"
+
+    "Next dates:"
+        "Próximas fechas:"
+
+    "Last date:"
+        "Última fecha:"
+
+    "Chapters:"
+        "Capítulos:"
+
+    "Number of repetitions:"
+        "Número de repeticiones:"
+
+    "Planning:"
+        "Planificación:"
+
+    "Status:"
+        "Status:"
+
+    "Course:"
+        "Curso:"
+
+    // .. VALUES
+
+    "Active (chapter)"
+        "Activo"
+
+    "Active (course)"
+        "Activo"
+
+    "Active chapters"
+        "Capítulos activos"
+
+    "Active courses"
+        "Cursos activos"
+
+    "All chapters"
+        "Todos los capítulos"
+
+    "All courses"
+        "Todos los cursos"
+
+    "Inactive (chapter)"
+        "Inactivo"
+
+    "Inactive (course)"
+        "Inactivo"
+
+    // .. NAMES
+
+    "New planning"
+        "Nueva planificación"
+
+    "New course"
+        "Nuevo curso"
+
+    "New chapter"
+        "Nuevo capítulo"
+
+    // .. LANGUAGES
+
+    "Danish"
+        "Danés"
+
+    "Dutch"
+        "Holandés"
+
+    "English"
+        "Inglés"
+
+    "French"
+        "Francés"
+
+    "German"
+        "Alemán"
+
+    "Italian"
+        "Italiano"
+
+    "Japanese"
+        "Japonés"
+
+    "Korean"
+        "Coreano"
+
+    "Norwegian"
+        "Noruego"
+
+    "Portuguese"
+        "Portugués"
+
+    "Spanish"
+        "Español"
+
+    "Swedish"
+        "Sueco"
+
+    // .. QUESTIONS
+
+    "Do you want to delete this backup?"
+        "¿Quiere eliminar esta copia de seguridad?"
+
+    "Do you want to delete this planning?"
+        "¿Quiere eliminar esta planificación?"
+
+    "Do you want to delete this course?"
+        "¿Quiere eliminar este curso?"
+
+    "Do you want to delete this chapter?"
+        "¿Quiere eliminar este capítulo?"
+
+    "Do you want to export the application data into the clipboard?"
+        "¿Quiere exportar los datos de la aplicación al portapapeles?"
+
+    "Do you want to import the application data from the clipboard?"
+        "¿Quiere importar los datos de la aplicación desde el portapapeles?"
+
+    "Do you want to restore the application data from this backup?"
+        "¿Quiere restaurar los datos de la aplicación desde esta copia de seguridad?"
+
+    // .. MESSAGES
+
+    "This planning can't be deleted because it is still used by a chapter."
+        "Esta planificación no puede ser borrada porque todavía es usada por un capítulo."
+
+    "The application data can't be imported because the clipboard content has an invalid format."
+        "Los datos de la aplicación no se pueden importar porque el contenido del portapapeles tiene un formato inválido."
+
+    "All current data will be lost."
+        "Todos los datos actuales se perderán."
+
+    // .. ACTIONS
+
+    "RESTORE"
+        "RESTAURAR"
+
+    "CANCEL"
+        "CANCELAR"
+
+    "CONTINUE"
+        "CONTINUAR"
+
+    "DELETE"
+        "ELIMINAR"
+
+    "SHARE"
+        "COMPARTIR"
+
+    "EXPORT"
+        "EXPORTAR"
+
+    "IMPORT"
+        "IMPORTAR"
+
+    // .. TITLES
+
+    "BACKUPS"
+        "COPIAS DE SEGURIDAD"
+
+    "CALENDAR"
+        "CALENDARIO"
+
+    "CHAPTER"
+        "CAPÍTULO"
+
+    "CHAPTERS"
+        "CAPÍTULOS"
+
+    "OPTIONS"
+        "OPCIONES"
+
+    "PLANNING"
+        "PLANIFICACIÓN"
+
+    "PLANNINGS"
+        "PLANIFICACIONES"
+
+    "COURSE"
+        "CURSO"
+
+    "COURSES"
+        "CURSOS"
+
+    // -- INQUIRIES

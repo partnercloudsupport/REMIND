@@ -1,0 +1,215 @@
+ENGLISH_LANGUAGE : LANGUAGE
+
+    // -- CONSTANTS
+
+    // .. ATTRIBUTES
+
+    "Color:"
+        "Color:"
+
+    "Font size:"
+        "Font size:"
+
+    "Date:"
+        "Date:"
+
+    "Durations:"
+        "Durations:"
+
+    "Language:"
+        "Language:"
+
+    "Name:"
+        "Name:"
+
+    "Next dates:"
+        "Next dates:"
+
+    "Last date:"
+        "Last date:"
+
+    "Chapters:"
+        "Chapters:"
+
+    "Number of repetitions:"
+        "Number of repetitions:"
+
+    "Planning:"
+        "Planning:"
+
+    "Status:"
+        "Status:"
+
+    "Course:"
+        "Course:"
+
+    // .. VALUES
+
+    "Active (chapter)"
+        "Active"
+
+    "Active (course)"
+        "Active"
+
+    "Active chapters"
+        "Active chapters"
+
+    "Active courses"
+        "Active courses"
+
+    "All chapters"
+        "All chapters"
+
+    "All courses"
+        "All courses"
+
+    "Inactive (chapter)"
+        "Inactive"
+
+    "Inactive (course)"
+        "Inactive"
+
+    // .. NAMES
+
+    "New planning"
+        "New planning"
+
+    "New course"
+        "New course"
+
+    "New chapter"
+        "New chapter"
+
+    // .. LANGUAGES
+
+    "Danish"
+        "Danish"
+
+    "Dutch"
+        "Dutch"
+
+    "English"
+        "English"
+
+    "French"
+        "French"
+
+    "German"
+        "German"
+
+    "Italian"
+        "Italian"
+
+    "Japanese"
+        "Japanese"
+
+    "Korean"
+        "Korean"
+
+    "Norwegian"
+        "Norwegian"
+
+    "Portuguese"
+        "Portuguese"
+
+    "Spanish"
+        "Spanish"
+
+    "Swedish"
+        "Swedish"
+
+    // .. QUESTIONS
+
+    "Do you want to delete this backup?"
+        "Do you want to delete this backup?"
+
+    "Do you want to delete this planning?"
+        "Do you want to delete this planning?"
+
+    "Do you want to delete this course?"
+        "Do you want to delete this course?"
+
+    "Do you want to delete this chapter?"
+        "Do you want to delete this chapter?"
+
+    "Do you want to export the application data into the clipboard?"
+        "Do you want to export the application data into the clipboard?"
+
+    "Do you want to import the application data from the clipboard?"
+        "Do you want to import the application data from the clipboard?"
+
+    "Do you want to restore the application data from this backup?"
+        "Do you want to restore the application data from this backup?"
+
+    // .. MESSAGES
+
+    "This planning can't be deleted because it is still used by a chapter."
+        "This planning can't be deleted because it is still used by a chapter."
+
+    "The application data can't be imported because the clipboard content has an invalid format."
+        "The application data can't be imported because the clipboard content has an invalid format."
+
+    "All current data will be lost."
+        "All current data will be lost."
+
+    // .. ACTIONS
+
+    "RESTORE"
+        "RESTORE"
+
+    "CANCEL"
+        "CANCEL"
+
+    "CONTINUE"
+        "CONTINUE"
+
+    "DELETE"
+        "DELETE"
+
+    "SHARE"
+        "SHARE"
+
+    "EXPORT"
+        "EXPORT"
+
+    "IMPORT"
+        "IMPORT"
+
+    // .. TITLES
+
+    "BACKUPS"
+        "BACKUPS"
+
+    "CALENDAR"
+        "CALENDAR"
+
+    "CHAPTER"
+        "CHAPTER"
+
+    "CHAPTERS"
+        "CHAPTERS"
+
+    "OPTIONS"
+        "OPTIONS"
+
+    "PLANNING"
+        "PLANNING"
+
+    "PLANNINGS"
+        "PLANNINGS"
+
+    "COURSE"
+        "COURSE"
+
+    "COURSES"
+        "COURSES"
+
+    // -- INQUIRIES
+
+    @import "date.dart";
+
+    @String GetDate( DATE date )
+        return "${date.Month}-${date.Day}-${date.Year}";
+
+    @String GetDateTime( DateTime date_time )
+        return "${date_time.month}-${date_time.day}-${date_time.year} ${date_time.hour}:${GetIntegerText(date_time.minute,2)}:${GetIntegerText(date_time.second,2)}";

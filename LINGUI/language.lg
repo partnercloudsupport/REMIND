@@ -1,0 +1,9 @@
+LANGUAGE
+
+    @import "date.dart";
+
+    @String GetDate( DATE date )
+        return "${date.Day}/${date.Month}/${date.Year}";
+
+    @String GetDateTime( DateTime date_time )
+        return "${date_time.day}/${date_time.month}/${date_time.year} ${date_time.hour}:${GetIntegerText(date_time.minute,2)}:${GetIntegerText(date_time.second,2)}";

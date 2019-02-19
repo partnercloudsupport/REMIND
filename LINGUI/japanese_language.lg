@@ -1,0 +1,215 @@
+JAPANESE_LANGUAGE : LANGUAGE
+
+    // -- CONSTANTS
+
+    // .. ATTRIBUTES
+
+    "Color:"
+        "色:"
+
+    "Font size:"
+        "フォントサイズ:"
+
+    "Date:"
+        "日付:"
+
+    "Durations:"
+        "期間:"
+
+    "Language:"
+        "言語:"
+
+    "Name:"
+        "名前:"
+
+    "Next dates:"
+        "次の日付:"
+
+    "Last date:"
+        "最後の日付:"
+
+    "Chapters:"
+        "章:"
+
+    "Number of repetitions:"
+        "繰返しの数:"
+
+    "Planning:"
+        "計画:"
+
+    "Status:"
+        "ステータス:"
+
+    "Course:"
+        "コース:"
+
+    // .. VALUES
+
+    "Active (chapter)"
+        "アクティブ"
+
+    "Active (course)"
+        "アクティブ"
+
+    "Active chapters"
+        "アクティブ章"
+
+    "Active courses"
+        "アクティブコース"
+
+    "All chapters"
+        "すべての章"
+
+    "All courses"
+        "すべてのコース"
+
+    "Inactive (chapter)"
+        "非アクティブ"
+
+    "Inactive (course)"
+        "非アクティブ"
+
+    // .. NAMES
+
+    "New planning"
+        "新しい計画"
+
+    "New course"
+        "新しいコース"
+
+    "New chapter"
+        "新しい章"
+
+    // .. LANGUAGES
+
+    "Danish"
+        "デンマーク語"
+
+    "Dutch"
+        "オランダ語"
+
+    "English"
+        "英語"
+
+    "French"
+        "フランス語"
+
+    "German"
+        "ドイツ語"
+
+    "Italian"
+        "イタリア語"
+
+    "Japanese"
+        "日本語"
+
+    "Korean"
+        "韓国語"
+
+    "Norwegian"
+        "ノルウェー語"
+
+    "Portuguese"
+        "ポルトガル語"
+
+    "Spanish"
+        "スペイン語"
+
+    "Swedish"
+        "スウェーデン語"
+
+    // .. QUESTIONS
+
+    "Do you want to delete this backup?"
+        "このバックアップを削除しますか？"
+
+    "Do you want to delete this planning?"
+        "この計画を削除しますか？"
+
+    "Do you want to delete this course?"
+        "このコースを削除しますか？"
+
+    "Do you want to delete this chapter?"
+        "この章を削除しますか？"
+
+    "Do you want to export the application data into the clipboard?"
+        "アプリケーションデータをクリップボードにエクスポートしますか?"
+
+    "Do you want to import the application data from the clipboard?"
+        "アプリケーションのデータをクリップボードからインポートしますか?"
+
+    "Do you want to restore the application data from this backup?"
+        "このバックアップからアプリケーションデータを復元しますか?"
+
+    // .. MESSAGES
+
+    "This planning can't be deleted because it is still used by a chapter."
+        "この計画はまだ章によって使用されるので取除くことができない。"
+
+    "The application data can't be imported because the clipboard content has an invalid format."
+        "クリップボードの内容に無効な形式があるため、アプリケーションデータをインポートできません。"
+
+    "All current data will be lost."
+        "すべての現在のデータは失われます。"
+
+    // .. ACTIONS
+
+    "RESTORE"
+        "復元"
+
+    "CANCEL"
+        "キャンセル"
+
+    "CONTINUE"
+        "続行"
+
+    "DELETE"
+        "削除"
+
+    "SHARE"
+        "共有"
+
+    "EXPORT"
+        "エクスポート"
+
+    "IMPORT"
+        "インポート"
+
+    // .. TITLES
+
+    "BACKUPS"
+        "バックアップ"
+
+    "CALENDAR"
+        "カレンダー"
+
+    "CHAPTER"
+        "章"
+
+    "CHAPTERS"
+        "章"
+
+    "OPTIONS"
+        "設定"
+
+    "PLANNING"
+        "計画"
+
+    "PLANNINGS"
+        "計画"
+
+    "COURSE"
+        "コース"
+
+    "COURSES"
+        "コース"
+
+    // -- INQUIRIES
+
+    @import "date.dart";
+
+    @String GetDate( DATE date )
+        return "${date.Year}年${date.Month}月${date.Day}日";
+
+    @String GetDateTime( DateTime date_time )
+        return "${date_time.year}年${date_time.month}月${date_time.day}日 ${date_time.hour}時${date_time.minute}分${date_time.second}秒";

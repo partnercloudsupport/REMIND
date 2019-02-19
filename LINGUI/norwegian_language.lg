@@ -1,0 +1,207 @@
+NORWEGIAN_LANGUAGE : LANGUAGE
+
+    // -- CONSTANTS
+
+    // .. ATTRIBUTES
+
+    "Color:"
+        "Farge:"
+
+    "Font size:"
+        "Skriftstørrelse:"
+
+    "Date:"
+        "Dato:"
+
+    "Durations:"
+        "Varigheten:"
+
+    "Language:"
+        "Språk:"
+
+    "Name:"
+        "Navn:"
+
+    "Next dates:"
+        "Neste datoer:"
+
+    "Last date:"
+        "Siste dato:"
+
+    "Chapters:"
+        "Kapitler:"
+
+    "Number of repetitions:"
+        "Antall repetisjoner:"
+
+    "Planning:"
+        "Planlegging:"
+
+    "Status:"
+        "Status:"
+
+    "Course:"
+        "Kurs:"
+
+    // .. VALUES
+
+    "Active (chapter)"
+        "Aktiv"
+
+    "Active (course)"
+        "Aktiv"
+
+    "Active chapters"
+        "Aktive kapitler"
+
+    "Active courses"
+        "Aktive kurs"
+
+    "All chapters"
+        "Alle kapitlene"
+
+    "All courses"
+        "Alle kurs"
+
+    "Inactive (chapter)"
+        "Inaktiv"
+
+    "Inactive (course)"
+        "Inaktiv"
+
+    // .. NAMES
+
+    "New planning"
+        "Ny planlegging"
+
+    "New course"
+        "Ny kurs"
+
+    "New chapter"
+        "Nytt kapittel"
+
+    // .. LANGUAGES
+
+    "Danish"
+        "Dansk"
+
+    "Dutch"
+        "Nederlandsk"
+
+    "English"
+        "Engelsk"
+
+    "French"
+        "Fransk"
+
+    "German"
+        "Tysk"
+
+    "Italian"
+        "Italiensk"
+
+    "Japanese"
+        "Japansk"
+
+    "Korean"
+        "Koreansk"
+
+    "Norwegian"
+        "Norsk"
+
+    "Portuguese"
+        "Portugisisk"
+
+    "Spanish"
+        "Spansk"
+
+    "Swedish"
+        "Svensk"
+
+    // .. QUESTIONS
+
+    "Do you want to delete this backup?"
+        "Vil du slette denne sikkerhetskopien?"
+
+    "Do you want to delete this planning?"
+        "Vil du slette denne planleggingen?"
+
+    "Do you want to delete this course?"
+        "Vil du slette dette kurset?"
+
+    "Do you want to delete this chapter?"
+        "Vil du slette dette kapittelet?"
+
+    "Do you want to export the application data into the clipboard?"
+        "Vil du eksportere programdataene til utklippstavlen? "
+
+    "Do you want to import the application data from the clipboard?"
+        "Vil du importere programdataene fra utklippstavlen? "
+
+    "Do you want to restore the application data from this backup?"
+        "Vil du gjenopprette programdataene fra denne sikkerhetskopien? "
+
+    // .. MESSAGES
+
+    "This planning can't be deleted because it is still used by a chapter."
+        "Denne planleggingen kan ikke slettes fordi den fortsatt brukes av et kapittel."
+
+    "The application data can't be imported because the clipboard content has an invalid format."
+        "Programdataene kan ikke importeres fordi innholdet på utklippstavlen har et ugyldig format. "
+
+    "All current data will be lost."
+        "Alle gjeldende data vil gå tapt."
+
+    // .. ACTIONS
+
+    "RESTORE"
+        "GJENOPPRETTE"
+
+    "CANCEL"
+        "AVBRYT"
+
+    "CONTINUE"
+        "FORTSETT"
+
+    "DELETE"
+        "SLETT"
+
+    "SHARE"
+        "DEL"
+
+    "EXPORT"
+        "EKSPORTERE"
+
+    "IMPORT"
+        "IMPORTERE"
+
+    // .. TITLES
+
+    "BACKUPS"
+        "SIKKERHETSKOPIER"
+
+    "CALENDAR"
+        "KALENDER"
+
+    "CHAPTER"
+        "KAPITTEL"
+
+    "CHAPTERS"
+        "KAPITLER"
+
+    "OPTIONS"
+        "INNSTILLINGER"
+
+    "PLANNING"
+        "PLANLEGGING"
+
+    "PLANNINGS"
+        "PLANLEGGINGER"
+
+    "COURSE"
+        "KURS"
+
+    "COURSES"
+        "KURSER"
+
+    // -- INQUIRIES

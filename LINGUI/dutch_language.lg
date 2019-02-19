@@ -1,0 +1,207 @@
+DUTCH_LANGUAGE : LANGUAGE
+
+    // -- CONSTANTS
+
+    // .. ATTRIBUTES
+
+    "Color:"
+        "Kleur:"
+
+    "Font size:"
+        "Lettergrootte:"
+
+    "Date:"
+        "Datum:"
+
+    "Durations:"
+        "Duren:"
+
+    "Language:"
+        "Taal:"
+
+    "Name:"
+        "Naam:"
+
+    "Next dates:"
+        "Volgende data:"
+
+    "Last date:"
+        "Laatste datum:"
+
+    "Chapters:"
+        "Hoofdstukken:"
+
+    "Number of repetitions:"
+        "Aantal herhalingen:"
+
+    "Planning:"
+        "Planning:"
+
+    "Status:"
+        "Status:"
+
+    "Course:"
+        "Cursus:"
+
+    // .. VALUES
+
+    "Active (chapter)"
+        "Actief"
+
+    "Active (course)"
+        "Actief"
+
+    "Active chapters"
+        "Actieve hoofdstukken"
+
+    "Active courses"
+        "Actieve cursussen"
+
+    "All chapters"
+        "Alle hoofdstukken"
+
+    "All courses"
+        "Alle cursussen"
+
+    "Inactive (chapter)"
+        "Inactief"
+
+    "Inactive (course)"
+        "Inactief"
+
+    // .. NAMES
+
+    "New planning"
+        "Nieuwe planning"
+
+    "New course"
+        "Nieuwe cursus"
+
+    "New chapter"
+        "Nieuw hoofdstuk"
+
+    // .. LANGUAGES
+
+    "Danish"
+        "Deens"
+
+    "Dutch"
+        "Nederlands"
+
+    "English"
+        "Engels"
+
+    "French"
+        "Frans"
+
+    "German"
+        "Duits"
+
+    "Italian"
+        "Italiaans"
+
+    "Japanese"
+        "Japans"
+
+    "Korean"
+        "Koreaans"
+
+    "Norwegian"
+        "Noors"
+
+    "Portuguese"
+        "Portugees"
+
+    "Spanish"
+        "Spaans"
+
+    "Swedish"
+        "Zweeds"
+
+    // .. QUESTIONS
+
+    "Do you want to delete this backup?"
+        "Wilt u deze back-up verwijderen?"
+
+    "Do you want to delete this planning?"
+        "Wilt u deze planning verwijderen?"
+
+    "Do you want to delete this course?"
+        "Wilt u deze cursus verwijderen?"
+
+    "Do you want to delete this chapter?"
+        "Wilt u deze hoofdstuk verwijderen?"
+
+    "Do you want to export the application data into the clipboard?"
+        "Wilt u de applicatiegegevens naar het klembord exporteren?"
+
+    "Do you want to import the application data from the clipboard?"
+        "Wilt u de applicatiegegevens van het klembord importeren?"
+
+    "Do you want to restore the application data from this backup?"
+        "Wilt u de applicatiegegevens van deze back-up herstellen?"
+
+    // .. MESSAGES
+
+    "This planning can't be deleted because it is still used by a chapter."
+        "Deze planning kan niet verwijderd worden omdat ze nog steeds door een hoofdstuk wordt gebruikt."
+
+    "The application data can't be imported because the clipboard content has an invalid format."
+        "De applicatiegegevens kunnen niet worden geïmporteerd omdat de inhoud van het klembord een ongeldig formaat heeft."
+
+    "All current data will be lost."
+        "Alle huidige gegevens gaan verloren."
+
+    // .. ACTIONS
+
+    "RESTORE"
+        "HERSTELLEN"
+
+    "CANCEL"
+        "ANNULEREN"
+
+    "CONTINUE"
+        "DOORGAAN"
+
+    "DELETE"
+        "VERWIJDEREN"
+
+    "SHARE"
+        "DELEN"
+
+    "EXPORT"
+        "EXPORTEREN"
+
+    "IMPORT"
+        "IMPORTEREN"
+
+    // .. TITLES
+
+    "BACKUPS"
+        "BACK-UPS"
+
+    "CALENDAR"
+        "KALENDER"
+
+    "CHAPTER"
+        "HOOFDSTUK"
+
+    "CHAPTERS"
+        "HOOFDSTUKKEN"
+
+    "OPTIONS"
+        "INSTELLINGEN"
+
+    "PLANNING"
+        "PLANNING"
+
+    "PLANNINGS"
+        "PLANNINGEN"
+
+    "COURSE"
+        "CURSUS"
+
+    "COURSES"
+        "CURSUSSEN"
+
+    // -- INQUIRIES
